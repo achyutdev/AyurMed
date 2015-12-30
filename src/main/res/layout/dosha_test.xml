@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="130dp">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/doshatestlist">
+
+    </ListView>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/q2"-->
+        <!--android:id="@+id/q2"-->
+        <!--style="@style/answer"-->
+        <!--android:paddingBottom="15dp"-->
+        <!--android:layout_below="@+id/sb1"-->
+        <!--android:layout_alignEnd="@+id/sb1"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<SeekBar-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/sb2"-->
+        <!--android:max="6"-->
+        <!--android:indeterminate="true"-->
+        <!--android:progress="3"-->
+        <!--android:layout_below="@+id/q2"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:paddingBottom="15dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/q3"-->
+        <!--android:id="@+id/q3"-->
+        <!--style="@style/answer"-->
+        <!--android:paddingBottom="15dp"-->
+        <!--android:layout_below="@+id/sb2"-->
+        <!--android:layout_alignEnd="@+id/sb1"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<SeekBar-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/sb3"-->
+        <!--android:max="6"-->
+        <!--android:indeterminate="true"-->
+        <!--android:progress="3"-->
+        <!--android:layout_below="@+id/q3"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:paddingBottom="15dp" />-->
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/q4"-->
+        <!--android:id="@+id/q4"-->
+        <!--style="@style/answer"-->
+        <!--android:paddingBottom="15dp"-->
+        <!--android:layout_below="@+id/sb3"-->
+        <!--android:layout_alignEnd="@+id/sb2"-->
+        <!--android:layout_alignParentStart="true" />-->
+
+    <!--<SeekBar-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/sb4"-->
+        <!--android:max="6"-->
+        <!--android:indeterminate="true"-->
+        <!--android:progress="3"-->
+        <!--android:layout_below="@+id/q4"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:paddingBottom="15dp" />-->
+
+    <!--<Button-->
+        <!--style="?android:attr/buttonStyleSmall"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/submitbutton"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignStart="@+id/sb4"-->
+        <!--android:layout_alignEnd="@+id/sb4"-->
+        <!--android:background="#2f7e33"-->
+        <!--android:textColor="#ffffff"-->
+        <!--android:textStyle="bold"-->
+        <!--android:text="Submit"-->
+        <!--android:layout_marginBottom="25dp" />-->
+
+
+</RelativeLayout>
+<!--</ScrollView>-->

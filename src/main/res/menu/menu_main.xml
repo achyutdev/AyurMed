@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="app.com.example.dev.weather.MainActivity"    >
+
+
+    <item android:id="@+id/doshatest"
+        android:title="@string/doshatest"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/healthtips"
+    android:title="@string/healthtips"
+    android:orderInCategory="100"
+    app:showAsAction="never" />
+
+    <item android:id="@+id/doshacontrol"
+        android:title="@string/balance_body"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/consultation"
+    android:title="@string/consultation"
+    android:orderInCategory="100"
+    app:showAsAction="never" />
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>

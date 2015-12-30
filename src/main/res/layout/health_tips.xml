@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.PopupOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/firstquestion"
+        android:id="@+id/firstQuestion"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp"
+        android:layout_alignParentEnd="true"
+        style="@style/question" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/firstanswer"
+        android:id="@+id/firstAnswer"
+        android:layout_below="@+id/firstQuestion"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        style="@style/answer"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/secondquestion"
+        android:id="@+id/secondQuestion"
+        android:layout_below="@+id/firstAnswer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        style="@style/question"
+        />
+
+    <TextView
+        style="@style/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/secondanswer"
+        android:id="@+id/secondAnswer"
+        android:layout_below="@+id/secondQuestion"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/thirdquestion"
+        android:id="@+id/thirdQuestion"
+        android:layout_below="@+id/secondAnswer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        style="@style/question"
+        />
+
+    <TextView
+        style="@style/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/thirdanswer"
+        android:id="@+id/thirdAnswer"
+        android:layout_below="@+id/thirdQuestion"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/fourthquestion"
+        android:id="@+id/fourthQuestion"
+        android:layout_below="@+id/thirdAnswer"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        style="@style/question"
+        />
+
+    <TextView
+        style="@style/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fourthanswer"
+        android:id="@+id/fourthAnswer"
+        android:layout_below="@+id/fourthQuestion"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="40dp"/>
+
+
+</RelativeLayout>
+</ScrollView>

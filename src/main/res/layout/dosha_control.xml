@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:theme="@style/AppTheme.PopupOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary"
+                android:elevation="4dp"
+                app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/fifthquestion"
+            android:id="@+id/fifthquestion"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="55dp"
+            android:layout_alignParentEnd="true"
+            style="@style/question" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fifthanswer"
+            android:id="@+id/fifthanswer"
+            android:layout_below="@+id/fifthquestion"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            style="@style/answer"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sixthquestion"
+            android:id="@+id/sixthquestion"
+            android:layout_below="@+id/fifthanswer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            style="@style/question"
+            />
+
+        <TextView
+            style="@style/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sixthanswer"
+            android:id="@+id/sixthanswer"
+            android:layout_below="@+id/sixthquestion"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/sevenquestion"
+            android:id="@+id/sevenquestion"
+            android:layout_below="@+id/sixthanswer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            style="@style/question"
+            />
+
+        <TextView
+            style="@style/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sevenanswer"
+            android:id="@+id/sevenanswer"
+            android:layout_below="@+id/sevenquestion"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/eightquestion"
+            android:id="@+id/eightQuestion"
+            android:layout_below="@+id/sevenanswer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            style="@style/question"
+            />
+
+        <TextView
+            style="@style/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eightanswer"
+            android:id="@+id/eightanswer"
+            android:layout_below="@+id/eightQuestion"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/ninequestion"
+            android:id="@+id/nineQuestion"
+            android:layout_below="@+id/eightanswer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            style="@style/question"
+            />
+
+        <TextView
+            style="@style/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nineanswer"
+            android:id="@+id/nineanswer"
+            android:layout_below="@+id/nineQuestion"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="40dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/tenquestion"
+            android:id="@+id/tenQuestion"
+            android:layout_below="@+id/nineanswer"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            style="@style/question"
+            />
+
+        <TextView
+            style="@style/answer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tenanswer"
+            android:id="@+id/tenanswer"
+            android:layout_below="@+id/tenQuestion"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="40dp"/>
+
+
+    </RelativeLayout>
+</ScrollView>

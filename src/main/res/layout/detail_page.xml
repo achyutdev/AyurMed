@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="55dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/medImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:src="@mipmap/medician" />
+
+        <TextView
+            android:id="@+id/medNametextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/medImage"
+            android:paddingStart="15dp"
+            android:text="MedName Here"
+            style="@style/question"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/medDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/medNametextView"
+            android:paddingEnd="10dp"
+            android:paddingStart="15dp"
+            android:paddingTop="10dp"
+            android:text="Descr iption of the medition here in a para graph form. Descri ption of the medition here in a par agraph form. Description of the medition here in a paragraph form" />
+
+        <TextView
+            android:id="@+id/topStarReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:paddingEnd="15dp"
+            android:paddingTop="10dp"
+            android:text="0 Reviews"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/topStarReview"
+            android:layout_alignParentBottom="true">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text=" * natural relief for occasional acid indigestion and heartburn \n * promotes balanced digestion without excess heat\n  * powerful formulation with amla, cabbage rose and ginger\n  * vata, pitta, kapha balancing (vpk®)"
+            android:layout_below="@+id/benefit"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/product_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:paddingBottom="10dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:text="Product Details"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#3b3b3b"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/product_details"
+            android:paddingEnd="10dp"
+            android:paddingStart="15dp"
+            android:text="Too many hot, spicy foods can spark excess digestive fire and too much stomach acid. Over time, this can knock digestion out of balance and lead to a variety of health problems.
+A quick fix from the drugstore is no solution. The herbs in Aci-Balance help maintain proper stomach balance for short-term comfort and long-term results.
+" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:paddingBottom="10dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:text="Review"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#3b3b3b"
+            android:layout_below="@+id/textView2"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/write_review"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView5"
+            android:text="Write Review" />
+
+        <TextView
+            android:id="@+id/benefit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:paddingStart="15dp"
+            android:paddingTop="15dp"
+            android:text="Benefits"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#3b3b3b"
+            android:textStyle="bold"
+            android:layout_below="@+id/medDescriptionTextView"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+</ScrollView>

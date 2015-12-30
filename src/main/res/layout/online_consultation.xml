@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#dbd9d9"
+    android:contextClickable="false">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:theme="@style/AppTheme.PopupOverlay"
+        android:id="@+id/view">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+
+            android:elevation="4dp"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Send your message"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/view"
+        android:layout_alignParentStart="true"
+        style="@style/question"
+        android:padding="15dp" />
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/editText"
+        android:background="#ffffff"
+        android:text="Health Advisor : Hi, Can i help you ?"
+        android:textAlignment="inherit"
+        android:textColor="#484747"
+        android:paddingStart="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView6"
+        android:padding="5dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Send"
+        android:id="@+id/sendmsgbutton"
+        android:background="#28662c"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_marginTop="35dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText2"
+        android:layout_alignBottom="@+id/sendmsgbutton"
+        android:layout_alignStart="@+id/editText"
+        android:layout_toStartOf="@+id/sendmsgbutton"
+        android:background="#ffffff"
+        android:layout_alignTop="@+id/sendmsgbutton"
+        android:paddingLeft="15dp" />
+
+
+</RelativeLayout>

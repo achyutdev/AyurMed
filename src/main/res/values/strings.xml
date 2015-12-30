@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">AyurMed</string>
+    <!-- menu items-->
+    <string name="action_settings">Settings</string>
+    <string name="doshatest">"Dosha Test"</string>
+    <string name="healthtips">"Health Tips"</string>
+    <string name="consultation">"Online Consultation"</string>
+    <string name="balance_body">"Dosha Control"</string>
+
+    <!-- health tips-->
+    <string name="firstquestion">"What is a Health Care System?"</string>
+    <string name="firstanswer">"Health is not a one-size-fits-all commodity. For self care to be effective, it has to account for your particular health problems and be easy for you to understand and follow. Maharishi Ayurveda Self-Care Systems do just that. They help with key aspects of health … weight control, anxiety, fatigue, high cholesterol, insomnia and more.  Each Maharishi Ayurveda Self-Care System includes specific recommendations for diet, lifestyle and related herbal formulas. It&apos;s a natural step-by-step process that helps restore balance and create health. "</string>
+    <string name="secondquestion">"Easy-to-Choose, Potent Ayurvedic Nutritional Formulas"</string>
+    <string name="secondanswer">"Health is not a one-size-fits-all commodity. For self care to be effective, it has to account for your particular health problems and be easy for you to understand and follow. Maharishi Ayurveda Self-Care Systems do just that. They help with key aspects of health … weight control, anxiety, fatigue, high cholesterol, insomnia and more.  Each Maharishi Ayurveda Self-Care System includes specific recommendations for diet, lifestyle and related herbal formulas. It&apos;s a natural step-by-step process that helps restore balance and create health. "</string>
+    <string name="thirdquestion">"Easy-to-Choose, Potent Ayurvedic Nutritional Formulas"</string>
+    <string name="thirdanswer">"Health is not a one-size-fits-all commodity. For self care to be effective, it has to account for your particular health problems and be easy for you to understand and follow. Maharishi Ayurveda Self-Care Systems do just that. They help with key aspects of health … weight control, anxiety, fatigue, high cholesterol, insomnia and more.  Each Maharishi Ayurveda Self-Care System includes specific recommendations for diet, lifestyle and related herbal formulas. It&apos;s a natural step-by-step process that helps restore balance and create health. "</string>
+    <string name="fourthquestion">"A Holistic Approach"</string>
+    <string name="fourthanswer">"Each of our formulas is a precise combination of herbs that are carefully selected and combined to strengthen the formula in seven crucial ways:
+\n* Main herbs for the primary benefit
+* Herbs to increase absorption
+* Herbs to remove toxins
+* Herbs to enhance digestion and prevent internal toxins
+* Herbs to balance and support other herbs
+* Herbs to block the effects of stress
+* Herbs to nourish every cell
+* Potent from the Start"</string>
+    <string name="fifthquestion">"Balance Vata"</string>
+    <string name="fifthanswer">"Balance Vata when you are changeable, indecisive, fast moving or anxious, and prone to insomnia, dry skin and constipation."</string>
+    <string name="sixthquestion">"To help balance Vata:"</string>
+    <string name="sixthanswer">"1. Favor foods that are sweet, salty and sour.
+ 2. Establish a regular daily routine.
+ 3. Go to bed early.
+ 4. Keep warm, especially when the weather is cold and windy.
+ 5. The Organic Calming Spice Mix (ayurvedic seasoning), Organic Vata Tea and Vata Aroma blend will help."</string>
+    <string name="sevenquestion">"Balance Pitta"</string>
+    <string name="sevenanswer">"Balance Pitta when you are intense, critical, frustrated or angry, and prone to overwork, a ravenous appetite, and sensitive skin."</string>
+    <string name="eightquestion">"To help balance Pitta:"</string>
+    <string name="eightanswer">" 1. Favor foods that are sweet, bitter and astringent.
+ 2. Make time for leisure.
+ 3. Don't skip meals.
+ 4. Stay cool, especially when the weather is hot.
+ 5. Add Organic Cooling Spice Mix to your dishes, drink Organic Pitta Tea and use the Pitta Aroma blend."</string>
+    <string name="ninequestion">"Balance Kapha"</string>
+    <string name="nineanswer">"Balance Kapha when you are lethargic, complacent or slow moving, and prone to easy weight gain, congestion, oily skin and oversleeping."</string>
+    <string name="tenquestion">"To help balance Kapha:"</string>
+    <string name="tenanswer">" 1. Favor foods that are pungent, bitter and astringent.
+ 2. Seek variety and new things in life.
+ 3. Don't overeat, and exercise regularly.
+ 4. Stay warm, especially when the weather is cold and damp."</string>
+
+
+
+    <string name="doshatitle">"How accurately do the following statements describe you? "</string>
+    <string name="q1">"I am lively and enthusiastic."</string>
+    <string name="q2">"I am talkative."</string>
+    <string name="q3">"I get easily excited."</string>
+    <string name="q4">"I easily get afraid and worried."</string>
+    <string name="q5">"I find it difficult to make decisions."</string>
+    <string name="q6">"I do things quickly."</string>
+    <string name="q7">"Cold weather does not suit me."</string>
+    <string name="q8">"I walk fast."</string>
+    <string name="q9">"I can quickly pick up something new."</string>
+    <string name="q10">"I find it hard to learn something by heart and retain it."</string>
+    <string name="q11">"I have difficulty falling asleep and wake up often in the night."</string>
+    <string name="q12">"I often have dry skin, and cold hands and feet."</string>
+    <string name="q13">"I tend towards flatulence or constipation."</string>
+    <string name="q14">"I have a light build and do not gain weight easily."</string>
+
+    <!-- Icon -->
+    <string name="category_name">Category</string>
+    <string name="seller">Seller</string>
+    <string name="skin_care">Skin Care</string>
+    <string name="bath_body">Bath Body</string>
+    <string name="supplements">Supplements</string>
+    <string name="beverages">Beverages</string>
+    <string name="food">Food</string>
+    <string name="spicy">Spicy</string>
+
+    <!-- Search -->
+    <string name="search">Search</string>
+</resources>
